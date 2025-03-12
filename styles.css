@@ -80,9 +80,6 @@
     color: #E50019;
     font-weight: 550;
 }
-.abtext2 h6{
-    text-align: end;
-}
 .aboutthree{
     background-color: whitesmoke;
     width: 100vw;
@@ -99,9 +96,9 @@
     margin: 8% auto 0;
 }
 .aboutthree .offers{
-    width: 80%;
+    width: 90%;
     height: auto;
-    margin: 10%;
+    margin: 10% auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -110,14 +107,15 @@
     background-color: whitesmoke;
 }
 .aboutthree .ofone{
-    width: 85%;
+    width: 90%;
     height: auto;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
     background-color: white;
     margin-bottom: 5%;
     cursor: pointer;
-    transition: transform 0.3s ease-in-out;;
+    transition: transform 0.3s ease-in-out;
+    margin: 2%;
 }
 .ofone:hover{
     transform: scale(1.03);
@@ -142,7 +140,7 @@
     margin: 2% auto 2%;
 }
 .aboutfour{
-    background-color: whitesmoke;
+    background-color: white;
     width: 100vw;
     min-height: 150px;
     height: auto;
@@ -221,14 +219,7 @@
     .aboutthree .ofone p{
         width: 90%;
         margin: 3% auto 10%;
-        font-size: 1.4rem;
-    }
-    .aboutfour{
-        background-color: whitesmoke;
-        width: 100vw;
-        min-height: 150px;
-        height: auto;
-        margin: auto;
+        font-size: 1.7rem;
     }
     .aboutfour h6{
         font-size: 2.5rem;
@@ -268,7 +259,7 @@
         font-size: 2.7rem;
     }
     .aboutthree .ofone p{
-        font-size: 1.6rem;
+        font-size: 1.9rem;
     }
     .aboutfour h6{
         font-size: 2.7rem;
